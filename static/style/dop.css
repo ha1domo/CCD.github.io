@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+body{
+    font-family: Oswald, serif;
+    background: linear-gradient(to right,rgb(134, 134, 134),rgb(56, 61, 129));
+
+}
+
+.navbar{
+    border-bottom: solid;
+    font-family: Oswald;
+
+}
+
+#navbar1{
+    align-items: baseline;
+    font-size: 20px;
+}
+
+a.navbar-brand {
+    font-family: Oswald;
+    font-size: 30px;
+
+}
+
+.btn{
+    font-family: Oswald;
+    font-size: 15px ;
+    margin-right: 20px;
+}
+
+.main-container{
+    margin-top: 5px;
+}
+
+.bgVideo{
+    height: 60vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.effect{
+    height: 60vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.76);
+}
+
+.bgVideo video{
+    height: 60vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.text{
+    color: aquamarine;
+    z-index: 2;
+}
+
+.text>p{
+    font-size: 50px;
+    text-align: center;
+    font-family: Oswald;
+    padding-top: 5em;
+    font-style: italic;
+}
+
+.container-text{
+    font-family: Oswald;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2);
+    grid-column: 6/8;
+
+}
+
+
+
+h1{
+    display: inline;
+    border-top: solid;
+    border-bottom: solid;
+    font-family: Oswald;
+}
+
+.lasttext{
+    padding-top: 15px;
+}
+
+.lasttext p{
+    text-align: center;
+    font-family: Oswald;
+    font-size: 20px;
+}
+

@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+body{
+    font-family: Oswald, serif;
+    background: linear-gradient(to right,rgb(134, 134, 134),rgb(56, 61, 129));
+
+}
+
+#CD{
+    text-align: center;
+    color: black;
+}
+
+.img{
+    width: 30%;
+    border-radius: 30%;
+    box-shadow: 0 0 10px rgba(90, 59, 49, 15);
+    padding: 0.6em;
+    margin-bottom: 1em;
+}
+
+.CD{
+    font-size: 3em;
+    font-family: Oswald;
+}
+
+.infomin{
+    color: rgba(0, 0, 0, 0.849);
+    font-family: Oswald;
+    font-size: 1.3em;
+}
+
+.navbar{
+    border-bottom: solid;
+}
+
+#navbar1{
+    align-items: baseline;
+}
+
+a.navbar-brand{
+    font-family: Oswald;
+    font-size: 30px;
+
+}
+.Infa{
+    border-top: solid;
+    margin-top: 9em;
+}
+  
+
+#cnt{
+    font-family: Oswald;
+    font-size: 15px
+}
+
+#rights{
+    margin-top: 1.5em;
+    font-family: Oswald;
+    font-size: 20px;
+}
+
+#Img{
+    margin-top: 1.15em;
+}
+
+#History{
+    font-family: Oswald;
+    font-size: 20px;
+}
+
+#Dea{
+    font-family: Oswald;
+    font-size: 20px;
+}
+
+#Soc{
+    font-family: Oswald;
+    font-size: 20px;
+}
+
+#Dop{
+    font-family: Oswald;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
